@@ -1,0 +1,64 @@
+body{
+    text-align: center;
+    margin: 0;
+    background-color: rgb(2, 2, 22);
+    height: 100vh;
+}
+
+.mainDiv{
+    height: 300px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#heading{
+    color: yellow;
+}
+
+.timers{
+    text-align: center;
+    border-radius: 10px;
+    border-color: yellow;
+}
+
+.control button{
+    width: 50%;
+    border-color: yellow;
+    box-sizing: border-box;
+    font-size: 1em;
+    width: 50%;
+    border: thin;
+    color: black;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+.timers input{
+    border-radius: 5%;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 200px;
+    width: 150px;
+    text-align: center;
+    background-color: rgb(2, 2, 22);
+    border-color: yellow;
+    color: yellow;
+    font-size: x-large;
+}
+
+.timers input:hover{
+    border: 0px;
+    background-color: yellow;
+    color: black;
+}
+
+.control button{
+    height: 50px;
+}
+
+.control button:disabled{
+    height: 50px;
+    background-color: gray;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Basic Stopwatch</title>
+  </head>
+  <body>
+    <div class="heading">
+      <h1 id="heading">Simple Stopwatch</h1>
+    </div>
+    <div class="container-fluid mainDiv">
+      <div class="timers">
+        <input type="number" placeholder="hrs" id="hrs" max=24 />
+      </div>
+      <div class="timers">
+        <input type="number" placeholder="mins" id="mins" max=60 />
+      </div>
+      <div class="timers">
+        <input type="number" placeholder="secs" id="secs" max=60 />
+      </div>
+      <div class="control">
+        <button id="start">start</button>
+        <button id="stop" disabled>stop</button>
+        <button id="reset" disabled>reset</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
